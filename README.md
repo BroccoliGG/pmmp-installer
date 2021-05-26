@@ -8,10 +8,11 @@
 sudo apt install composer php7.4-cli -y
 ```
 
-**インストーラーを起動**
+**ダウンロードとインストール**
 ```
+git clone https://github.com/BroccoliGG/pmmp-installer.git
 chmod a+x install.sh
 ./install.sh
 ```
 
-依存関係のComposerとPHPがインストールされていない場合は警告メッセージが表示され、インストーラーが終了します。
+依存関係のComposerとPHPがインストールされていない場合はNot foundエラーが表示され、インストーラーが終了します。
