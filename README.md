@@ -11,6 +11,7 @@ sudo apt install composer php7.4-cli -y
 **ダウンロードとインストール**
 ```
 git clone https://github.com/BroccoliGG/pmmp-installer.git
+cd pmmp-installer
 chmod a+x install.sh
 ./install.sh
 ```
